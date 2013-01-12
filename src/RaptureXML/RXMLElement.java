@@ -61,6 +61,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Document;
@@ -114,17 +115,27 @@ public class RXMLElement {
 	{
 		String xmlString = null;
     	DataInputStream in = null;
-    	try {
+    	try
+        {
     		byte[] buffer = new byte[(int)file.length()];
     		in = new DataInputStream(new FileInputStream(file));
     		in.readFully(buffer);
     		xmlString = new String(buffer);
-    	} catch (IOException e) {
+    	}
+        catch (IOException e)
+        {
 //    		e.printStackTrace();
-        } finally {
-            try {
-                in.close();
-            } catch (IOException e) { /* ignore it */
+        }
+        finally
+        {
+            try
+            {
+                if (in!=null)
+                    in.close();
+            }
+            catch (IOException e)
+            {
+//      		e.printStackTrace();
             }
         }
 
@@ -136,7 +147,7 @@ public class RXMLElement {
 		}
 	    catch (Exception e)
 		{
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
         if (_doc != null)
         {
@@ -369,9 +380,10 @@ public class RXMLElement {
 
 		XPathFactory factory = XPathFactory.newInstance();
 		XPath xpath = factory.newXPath();
-		NodeList nodes = null;
+        NodeList nodes = null;
 		try {
-			nodes = (NodeList)xpath.evaluate(query, _node, XPathConstants.NODESET);
+            XPathExpression expr = xpath.compile(query);
+            nodes = (NodeList)expr.evaluate(_node, XPathConstants.NODESET);
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		}
@@ -379,15 +391,13 @@ public class RXMLElement {
 			return new ArrayList<RXMLElement>();
 
 		ArrayList<RXMLElement> resultNodes = new ArrayList<RXMLElement>();
+        for (int i = 0; i < nodes.getLength(); i++)
+        {
+            RXMLElement element = RXMLElement.elementFromNode(nodes.item(i));
+            if (element != null)
+                resultNodes.add(element);
+        }
 
-		Node cur = _node.getFirstChild();
-		while (cur != null)
-		{
-			RXMLElement element = RXMLElement.elementFromNode(cur);
-			if (element != null)
-				resultNodes.add(element);
-            cur = cur.getNextSibling();
-		}
 		return resultNodes;
 	}
 
@@ -451,7 +461,7 @@ public class RXMLElement {
     				blk.block(element);
     			}
 
-    			if (childTagName.equals("*"))
+    			if (childTagName != null && childTagName.equals("*"))
     			{
     				cur = cur.getNextSibling();
     			}
