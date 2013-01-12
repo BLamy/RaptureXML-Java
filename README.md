@@ -196,4 +196,9 @@ However, in java if no element with name exist the following will crash
 	rxml.child("name").text();
 
 What does this mean?
-When checking to see if a element exist you must check using if(rxml.child("name").isValid()) instead of if(rxml.child("name")==null)
+When checking to see if a element exist you must check using:
+
+ if(rxml.child("name").isValid()) 
+ instead of if:
+
+ (rxml.child("name")==null)
