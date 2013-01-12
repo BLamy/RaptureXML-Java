@@ -7,11 +7,11 @@ A port of [John Blanco's RaptureXML](https://github.com/ZaBlanc/RaptureXML) to J
 
 
 
-RaptureXML is a simple, block-based XML library for the iOS platform that provides an expressive API that makes XML processing freakin' fun for once in my life.
+RaptureXML is a simple, block-based XML library written in java that provides an expressive API that makes XML processing freakin' fun for once in my life.
 
 # Why do we need *another* XML library? #
 
-You tell me.  Processing XML in Objective-C is an awful, frustrating experience and the resulting code is never readable.  I'm tired of it! RaptureXML solves this by providing a *powerful* new interface on top of libxml2.  Imagine for a minute the code you'd write to process the XML for a list of baseball team members, retrieving their numbers, names, and positions using your favorite XML processing library.  Now, take a look at how you do it with RaptureXML:
+You tell me.  Processing XML in Java is an awful, frustrating experience and the resulting code is never readable.  I'm tired of it! RaptureXML solves this by providing a *powerful* new interface on top of libxml2.  Imagine for a minute the code you'd write to process the XML for a list of baseball team members, retrieving their numbers, names, and positions using your favorite XML processing library.  Now, take a look at how you do it with RaptureXML:
     File file = new File(DeepChildrenTests.class.getResource("players.xml").toURI());
     RXMLElement rxml = RXMLElement.elementFromFile(file);
     rxml.iterate("players.player", new RXMLElement.Block()
@@ -24,7 +24,7 @@ You tell me.  Processing XML in Objective-C is an awful, frustrating experience 
     });
 
 
-RaptureXML changes the game when it comes to XML processing in Objective-C.  As you can see from the code, it takes only seconds to understand what this code does.  There are no wasted arrays and verbose looping you have to do.  The code is a breeze to read and maintain.
+RaptureXML changes the game when it comes to XML processing in java.  As you can see from the code, it takes only seconds to understand what this code does.  There are no wasted arrays and verbose looping you have to do.  The code is a breeze to read and maintain.
 
 I don't think any more needs to be said.
 

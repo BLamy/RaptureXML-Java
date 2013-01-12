@@ -17,7 +17,7 @@
     <file path="/TextConversionTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357952590280" ignored="false" />
     <file path="/WildcardTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357953121533" ignored="false" />
     <file path="/XPathTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357954042856" ignored="false" />
-    <file path="/README.md" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357958018949" ignored="false" />
+    <file path="/README.md" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357958101599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="795" selection-end="795" vertical-scroll-proportion="0.34054053">
+            <state line="13" column="36" selection-start="358" selection-end="358" vertical-scroll-proportion="0.33236575">
               <folding />
             </state>
           </provider>
@@ -626,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="795" selection-end="795" vertical-scroll-proportion="0.34054053">
+        <state line="13" column="36" selection-start="358" selection-end="358" vertical-scroll-proportion="0.33236575">
           <folding />
         </state>
       </provider>
