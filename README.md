@@ -12,12 +12,17 @@ RaptureXML is a simple, block-based XML library for the iOS platform that provid
 # Why do we need *another* XML library? #
 
 You tell me.  Processing XML in Objective-C is an awful, frustrating experience and the resulting code is never readable.  I'm tired of it! RaptureXML solves this by providing a *powerful* new interface on top of libxml2.  Imagine for a minute the code you'd write to process the XML for a list of baseball team members, retrieving their numbers, names, and positions using your favorite XML processing library.  Now, take a look at how you do it with RaptureXML:
+    File file = new File(DeepChildrenTests.class.getResource("players.xml").toURI());
+    RXMLElement rxml = RXMLElement.elementFromFile(file);
+    rxml.iterate("players.player", new RXMLElement.Block()
+    {
+        @Override
+        public void block(RXMLElement player)
+        {
+            System.out.println(Player: "+player.child("name").text()+" (#"+player.child("number").text()+")");
+        }
+    });
 
-	RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"players.xml"];
-
-	[rootXML iterate:@"players.player" usingBlock: ^(RXMLElement *e) {
-		NSLog(@"Player #%@: %@ (%@)", [e attribute:@"number"], [e child:@"name"].text);
-	}];
 
 RaptureXML changes the game when it comes to XML processing in Objective-C.  As you can see from the code, it takes only seconds to understand what this code does.  There are no wasted arrays and verbose looping you have to do.  The code is a breeze to read and maintain.
 

@@ -17,7 +17,7 @@
     <file path="/TextConversionTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357952590280" ignored="false" />
     <file path="/WildcardTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357953121533" ignored="false" />
     <file path="/XPathTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357954042856" ignored="false" />
-    <file path="/README.md" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357957136978" ignored="false" />
+    <file path="/README.md" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357958018949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="34" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.53513515">
+            <state line="14" column="4" selection-start="795" selection-end="795" vertical-scroll-proportion="0.34054053">
               <folding />
             </state>
           </provider>
@@ -505,13 +505,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1403" selection-end="1403" vertical-scroll-proportion="1.1618358">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/reflect/InvocationTargetException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="31" selection-start="709" selection-end="709" vertical-scroll-proportion="0.67699116">
@@ -604,15 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DeepChildrenTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="424" selection-end="492" vertical-scroll-proportion="0.13944224">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="4" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.50199205">
@@ -624,9 +608,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SimpleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DeepChildrenTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="404" selection-end="555" vertical-scroll-proportion="0.13944224">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="34" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.53513515">
+        <state line="14" column="4" selection-start="795" selection-end="795" vertical-scroll-proportion="0.34054053">
           <folding />
         </state>
       </provider>
