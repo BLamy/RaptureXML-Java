@@ -12,16 +12,16 @@ RaptureXML is a simple, block-based XML library written in java that provides an
 # Why do we need *another* XML library? #
 
 You tell me.  Processing XML in Java is an awful, frustrating experience and the resulting code is never readable.  I'm tired of it! RaptureXML solves this by providing a *powerful* new interface on top of libxml2.  Imagine for a minute the code you'd write to process the XML for a list of baseball team members, retrieving their numbers, names, and positions using your favorite XML processing library.  Now, take a look at how you do it with RaptureXML:
-        File file = new File(DeepChildrenTests.class.getResource("players.xml").toURI());
-        RXMLElement rxml = RXMLElement.elementFromFile(file);
-        rxml.iterate("players.player", new RXMLElement.Block()
-        {
-            @Override
-            public void block(RXMLElement player)
-            {
-                System.out.println(Player: "+player.child("name").text()+" (#"+player.child("number").text()+")");
-            }
-        });
+	File file = new File(DeepChildrenTests.class.getResource("players.xml").toURI());
+    RXMLElement rxml = RXMLElement.elementFromFile(file);
+    rxml.iterate("players.player", new RXMLElement.Block()
+    {
+         @Override
+         public void block(RXMLElement player)
+         {
+             System.out.println(Player: "+player.child("name").text()+" (#"+player.child("number").text()+")");
+         }
+     });
 
 
 RaptureXML changes the game when it comes to XML processing in java.  As you can see from the code, it takes only seconds to understand what this code does.  There are no wasted arrays and verbose looping you have to do.  The code is a breeze to read and maintain.
@@ -185,12 +185,12 @@ RaptureXML was created by John Blanco <john.blanco@raptureinvenice.com> of Raptu
 RaptureXML was ported to java by Brett Lamy <bel423@me.com>
 
 
-# Differences between the Java port and the objective-c RaptureXML *
+# Differences between the Java port and the original Objective-c RaptureXML
 None of the functions in RaptureXML-java will return a null value. One of the greatest things of this libary is it's elegent syntax and needing to perform sanity checks on every variable would ruin it.
 Objective-c will not throw null pointer exceptions given the following code if name does not exist.
-     [rxml child:@"name"].text;
+	[rxml child:@"name"].text;
 However, in java if no element with name exist the following will crash
-     rxml.child("name").text();
+	rxml.child("name").text();
 
 What does this mean?
 When checking to see if a element exist you must check using if(rxml.child("name").isValid()) instead of if(rxml.child("name")==null)
