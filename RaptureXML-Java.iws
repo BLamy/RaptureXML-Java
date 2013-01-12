@@ -82,15 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RXMLElement.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="4" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.50199205">
-              <folding>
-                <element signature="e#10089#10102#0" expanded="true" />
-                <element signature="e#10438#10451#0" expanded="true" />
-                <element signature="e#11307#11320#0" expanded="true" />
-              </folding>
+            <state line="87" column="34" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.53513515">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -617,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.21891892">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="4" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.50199205">
@@ -632,6 +621,13 @@
             <element signature="e#10438#10451#0" expanded="true" />
             <element signature="e#11307#11320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="34" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.53513515">
+          <folding />
         </state>
       </provider>
     </entry>

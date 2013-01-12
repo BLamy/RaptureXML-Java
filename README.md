@@ -80,12 +80,12 @@ First, we'd load the XML:
 
 We can immediately query the top-level tag name:
 
-	rootXML.tag --> @"team"
+	rootXML.tag() --> "team"
 
 We can read attributes with:
 
-	rootXML.attribute("year") --> @"2011"
-	rootXML.attribute("name") --> @"New York Mets"
+	rootXML.attribute("year") --> "2011"
+	rootXML.attribute("name") --> "New York Mets"
 
 We can get the players tag with:
 
