@@ -190,7 +190,7 @@ RaptureXML was ported to java by Brett Lamy <bel423@me.com>
 None of the functions in RaptureXML-java will return a null value. One of the greatest things of this libary is it's elegent syntax and needing to perform sanity checks on every variable would ruin it.
 Objective-c will not throw null pointer exceptions given the following code if name does not exist.
 
-	[rxml child:@"name"].text;
+	rxml.child("name").text();
 However, in java if no element with name exist the following will crash
 
 	rxml.child("name").text();

@@ -85,7 +85,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="4" selection-start="7894" selection-end="7894" vertical-scroll-proportion="0.8171263">
+            <state line="183" column="0" selection-start="7031" selection-end="7031" vertical-scroll-proportion="2.902439">
               <folding />
             </state>
           </provider>
@@ -437,7 +437,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17001435" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,17 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="4" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.50199205">
-          <folding>
-            <element signature="e#10089#10102#0" expanded="true" />
-            <element signature="e#10438#10451#0" expanded="true" />
-            <element signature="e#11307#11320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/SimpleTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
@@ -624,9 +613,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#10089#10102#0" expanded="true" />
+            <element signature="e#10438#10451#0" expanded="true" />
+            <element signature="e#11307#11320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="4" selection-start="7894" selection-end="7894" vertical-scroll-proportion="0.8171263">
+        <state line="183" column="0" selection-start="7031" selection-end="7031" vertical-scroll-proportion="2.902439">
           <folding />
         </state>
       </provider>
