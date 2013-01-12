@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45298389-f3a4-4910-b2fa-dc19a3234104" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/BoundaryTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/DeepChildrenTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/DeepTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ErrorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RaptureXML-Java.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/SimpleTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TextConversionTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/players.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/WildcardTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/XPathTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" afterPath="$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RaptureXML-Java.iws" afterPath="$PROJECT_DIR$/RaptureXML-Java.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TextConversionTests.java" afterPath="$PROJECT_DIR$/src/test/TextConversionTests.java" />
     </list>
     <ignored path="RaptureXML-Java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357798786433" ignored="false" />
-    <file path="/fragment.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357808715043" ignored="false" />
+    <file path="/Dummy.txt" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357952143283" ignored="false" />
+    <file path="/fragment.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357953509394" ignored="false" />
     <file path="/BoundaryTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357800515577" ignored="false" />
-    <file path="/RXMLElement.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357808670711" ignored="false" />
+    <file path="/RXMLElement.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357955081616" ignored="false" />
     <file path="/DeepChildrenTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357801913299" ignored="false" />
     <file path="/DeepTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357802498374" ignored="false" />
     <file path="/ErrorTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357806500827" ignored="false" />
     <file path="/SimpleTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357807260342" ignored="false" />
+    <file path="/TextConversionTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357952590280" ignored="false" />
+    <file path="/WildcardTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357953121533" ignored="false" />
+    <file path="/XPathTests.java" changelist="45298389-f3a4-4910-b2fa-dc19a3234104" time="1357954042856" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,22 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" line="471" class="RaptureXML.RXMLElement" package="RaptureXML">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,36 +85,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/SimpleTests.java" line="49" class="test.SimpleTests" package="test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/BoundaryTests.java" line="72" class="test.BoundaryTests" package="test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -111,11 +95,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextConversionTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/TextConversionTests.java">
+      <file leaf-file-name="RXMLElement.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.09561753">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.621951">
+              <folding>
+                <element signature="e#9922#9935#0" expanded="true" />
+                <element signature="e#10271#10284#0" expanded="true" />
+                <element signature="e#11076#11089#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,15 +136,16 @@
         <option value="$PROJECT_DIR$/src/test/DeepTests.java" />
         <option value="$PROJECT_DIR$/src/test/ErrorTests.java" />
         <option value="$PROJECT_DIR$/src/test/SimpleTests.java" />
-        <option value="$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" />
         <option value="$PROJECT_DIR$/src/test/TextConversionTests.java" />
+        <option value="$PROJECT_DIR$/src/test/WildcardTests.java" />
+        <option value="$PROJECT_DIR$/src/test/XPathTests.java" />
+        <option value="$PROJECT_DIR$/src/RaptureXML/RXMLElement.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="527" />
-    <option name="y" value="98" />
-    <option name="width" value="1107" />
+    <option name="y" value="22" />
+    <option name="width" value="1233" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -187,7 +176,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,6 +237,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,19 +254,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="test" />
-      <recent name="RaptureXML" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
       <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="RaptureXML" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/RaptureXML" />
@@ -299,6 +288,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -327,19 +329,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -443,8 +432,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="527" y="98" width="1107" height="874" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1233" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -457,14 +446,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33023873" sideWeight="0.9952875" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33023873" sideWeight="0.9952875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22337417" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19966301" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -532,126 +521,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/DeepChildrenTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/TextConversionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="353" selection-end="1060" vertical-scroll-proportion="0.42970297">
+        <state line="17" column="4" selection-start="379" selection-end="399" vertical-scroll-proportion="0.4063745">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DeepTests.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="654" selection-end="865" vertical-scroll-proportion="0.35841584">
+        <state line="31" column="19" selection-start="956" selection-end="956" vertical-scroll-proportion="0.7212389">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/org/junit/runners/Suite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="35" selection-start="1403" selection-end="1403" vertical-scroll-proportion="1.1618358">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/reflect/InvocationTargetException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="709" selection-end="709" vertical-scroll-proportion="0.67699116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="19" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.4347826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.11.jar!/junit/framework/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="626" selection-end="626" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="41" selection-start="5766" selection-end="5766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="44" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/jkernel/DownloadManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="35" selection-start="6388" selection-end="6388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/xpath/XPathConstants.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.32079208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/XPathTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.42970297">
           <folding>
-            <element signature="e#693#863#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
+            <element signature="method#setUp#0;class#XPathTests#0" expanded="false" />
+            <element signature="method#testAttributePath#0;class#XPathTests#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/org/apache/xerces/internal/dom/NodeImpl.class">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/xpath/XPathFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="18" selection-start="8397" selection-end="8397" vertical-scroll-proportion="0.46697038">
+        <state line="6" column="22" selection-start="167" selection-end="167" vertical-scroll-proportion="0.036585364">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/org/apache/xerces/internal/dom/ElementImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/NamedNodeMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="475" selection-end="475" vertical-scroll-proportion="0.54897493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/org/apache/xerces/internal/parsers/DOMParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.7804878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="3910" selection-end="3910" vertical-scroll-proportion="0.7804878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/parsers/DocumentBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="906" selection-end="906" vertical-scroll-proportion="0.6585366">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ErrorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="758" selection-end="818" vertical-scroll-proportion="0.17297298">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/AbstractStringBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="4883" selection-end="4883" vertical-scroll-proportion="0.7804878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SimpleTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.035643563">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/org/apache/xerces/internal/dom/CharacterDataImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/StringBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/BoundaryTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#testEmptyXML#0;class#BoundaryTests#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RaptureXML/RXMLElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="404" column="0" selection-start="11540" selection-end="11540" vertical-scroll-proportion="0.11382114">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.621951">
           <folding>
             <element signature="e#9922#9935#0" expanded="true" />
             <element signature="e#10271#10284#0" expanded="true" />
-            <element signature="e#11065#11078#0" expanded="true" />
+            <element signature="e#11076#11089#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TextConversionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.09561753">
-          <folding />
         </state>
       </provider>
     </entry>

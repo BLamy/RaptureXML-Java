@@ -369,9 +369,9 @@ public class RXMLElement {
 
 		XPathFactory factory = XPathFactory.newInstance();
 		XPath xpath = factory.newXPath();
-		Node nodes = null;
+		NodeList nodes = null;
 		try {
-			nodes = (Node)xpath.evaluate(query, _node, XPathConstants.NODE);
+			nodes = (NodeList)xpath.evaluate(query, _node, XPathConstants.NODESET);
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		}
@@ -386,6 +386,7 @@ public class RXMLElement {
 			RXMLElement element = RXMLElement.elementFromNode(cur);
 			if (element != null)
 				resultNodes.add(element);
+            cur = cur.getNextSibling();
 		}
 		return resultNodes;
 	}
@@ -420,7 +421,7 @@ public class RXMLElement {
 		    				String restOfQuery = implode(subArray, ".");
 		    				element.iterate(restOfQuery, blk);
 						}
-						cur.getNextSibling();
+                        cur = cur.getNextSibling();
 					} while (cur != null);
 				}
 			}

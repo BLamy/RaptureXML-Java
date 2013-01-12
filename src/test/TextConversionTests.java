@@ -2,7 +2,7 @@ package test;
 
 import junit.framework.TestCase;
 import org.junit.Before;
-
+import RaptureXML.RXMLElement;
 /**
  * Created with IntelliJ IDEA.
  * User: brett
@@ -40,35 +40,43 @@ public class TextConversionTests extends TestCase
                 "</shapes>";
     }
 
-    - (void)testIntTags {
-    RXMLElement *rxml = [RXMLElement elementFromXMLString:simplifiedXML_ encoding:NSUTF8StringEncoding];
-    __block NSInteger i = 0;
+    public void testIntTags()
+    {
+        RXMLElement rxml = RXMLElement.elementFromXMLString(simplifiedXML_);
+        final int arr[] = {0};
+        rxml.iterate("*", new RXMLElement.Block()
+        {
+            @Override
+            public void block(RXMLElement element)
+            {
+                if (arr[0] == 0)
+                    assertEquals("", 1, element.child("id").textAsInt());
+                else if(arr[0] == 1)
+                    assertEquals(2.5, 0.01, element.child("id").textAsDouble());
+                arr[0]++;
+            }
 
-    [rxml iterate:@"*" usingBlock:^(RXMLElement *e) {
-        if (i == 0) {
-            STAssertEquals([e child:@"id"].textAsInt, 1, nil);
-        } else if (i == 1) {
-            STAssertEqualsWithAccuracy([e child:@"id"].textAsDouble, 2.5, 0.01, nil);
-        }
+        });
 
-        i++;
-    }];
-}
+    }
 
-    - (void)testIntAttributes {
-    RXMLElement *rxml = [RXMLElement elementFromXMLString:attributedXML_ encoding:NSUTF8StringEncoding];
-    __block NSInteger i = 0;
-
-    [rxml iterate:@"*" usingBlock:^(RXMLElement *e) {
-        if (i == 0) {
-            STAssertEquals([e attributeAsInt:@"id"], 1, nil);
-        } else if (i == 1) {
-            STAssertEqualsWithAccuracy([e attributeAsDouble:@"id"], 2.5, 0.01, nil);
-        } else if (i == 2) {
-            STAssertEquals([e attributeAsInt:@"id"], 3, nil);
-        }
-
-        i++;
-    }];
-}
+    public void testIntAttributes()
+    {
+        RXMLElement rxml = RXMLElement.elementFromXMLString(attributedXML_);
+        final int arr[] = {0};
+        rxml.iterate("*", new RXMLElement.Block()
+        {
+            @Override
+            public void block(RXMLElement element)
+            {
+                if (arr[0] == 0)
+                    assertEquals("", 1, element.attributeAsInt("id"));
+                else if(arr[0] == 1)
+                    assertEquals(2.5, 0.01, element.attributeAsDouble("id"));
+                else if(arr[0] == 2)
+                    assertEquals("", 3, element.attributeAsInt("id"));
+                arr[0]++;
+            }
+        });
+    }
 }
