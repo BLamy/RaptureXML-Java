@@ -29,17 +29,6 @@ RaptureXML changes the game when it comes to XML processing in java.  As you can
 
 I don't think any more needs to be said.
 
-# Adding RaptureXML to Your Project #
-
-There's just a few simple steps:
-
-  * Copy the RaptureXML/RaptureXML folder into your own project and import "RXMLElement.h" somewhere (e.g., your PCH file).
-  * Link in libz.dylib to your target.
-  * Link in libxml2.dylib to your target.
-  * In your build settings, for the key "Header Search Paths", add "$(SDK_DIR)"/usr/include/libxml2
-
-RaptureXML supports ARC.  In fact, it does so without a branch.  The code automatically detects if ARC is being used in your project and compiles accordingly.  You are free to use any version of LLVM or gcc as well! (Though you should be using LLVM by now.)
-
 # Getting Started #
 
 RaptureXML processes XML in two steps: load and path.  This means that you first load the XML from any source you want such as file, data, string, or even from a URL.  Then, you simply use its query language to find what you need.
